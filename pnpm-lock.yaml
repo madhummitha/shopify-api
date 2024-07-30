@@ -1,0 +1,193 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    dependencies:
+      '@shopify/shopify-api':
+        specifier: ^11.2.0
+        version: 11.2.0
+      axios:
+        specifier: ^1.7.2
+        version: 1.7.2
+      node:
+        specifier: link:@shopify/shopify-api/adapters/node
+        version: link:@shopify/shopify-api/adapters/node
+
+packages:
+
+  '@shopify/admin-api-client@1.0.1':
+    resolution: {integrity: sha512-eyTr8p3dtq/J6goWA2Sh66ejZH1FnIF/9vY23nqDFJDboNZLUNvbZ+t7roBasw1n5mYn1Jy5NYzjZHpbIJSl1g==}
+
+  '@shopify/graphql-client@1.1.0':
+    resolution: {integrity: sha512-ZHEqNa5mTKa/dB6XH5F0Zdt2SAGOc9evRhJLoaI/DEftvuEaqZo4CRa4THONCZFwwgClW3WaoZBlqggILfYBuw==}
+
+  '@shopify/network@3.3.0':
+    resolution: {integrity: sha512-Lln7vglzLK9KiYhl9ucQFVM7ArlpUM21xkDriBX8kVrqsoBsi+4vFIjf1wjhNPT0J/zHMjky7jiTnxVfdm+xXw==}
+    engines: {node: '>=18.12.0'}
+
+  '@shopify/shopify-api@11.2.0':
+    resolution: {integrity: sha512-+MQme3Ca4JOLxAWJyXFWM7Ybt7EC7e8Mhgid2dGrVkl054FtwkrUyuY1al77o/Q0roQtTtEqz5EwjcFUggvCNg==}
+
+  '@shopify/storefront-api-client@1.0.1':
+    resolution: {integrity: sha512-cz9gp7aITrbNyTO8ULOHFQA5CuBtRqkc23RJW8iX2FticneGgksUg4Uwj5yQ+6u5BMWoEcLn9+B6TS799YOTcA==}
+
+  asynckit@0.4.0:
+    resolution: {integrity: sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==}
+
+  axios@1.7.2:
+    resolution: {integrity: sha512-2A8QhOMrbomlDuiLeK9XibIBzuHeRcqqNOHp0Cyp5EoJ1IFDh+XZH3A6BkXtv0K4gFGCI0Y4BM7B1wOEi0Rmgw==}
+
+  combined-stream@1.0.8:
+    resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
+    engines: {node: '>= 0.8'}
+
+  compare-versions@6.1.1:
+    resolution: {integrity: sha512-4hm4VPpIecmlg59CHXnRDnqGplJFrbLG4aFEl5vl6cK1u76ws3LLvX7ikFnTDl5vo39sjWD6AaDPYodJp/NNHg==}
+
+  delayed-stream@1.0.0:
+    resolution: {integrity: sha512-ZySD7Nf91aLB0RxL4KGrKHBXl7Eds1DAmEdcoVawXnLD7SDhpNgtuII2aAkg7a7QS41jxPSZ17p4VdGnMHk3MQ==}
+    engines: {node: '>=0.4.0'}
+
+  follow-redirects@1.15.6:
+    resolution: {integrity: sha512-wWN62YITEaOpSK584EZXJafH1AGpO8RVgElfkuXbTOrPX4fIfOyEpW/CsiNd8JdYrAoOvafRTOEnvsO++qCqFA==}
+    engines: {node: '>=4.0'}
+    peerDependencies:
+      debug: '*'
+    peerDependenciesMeta:
+      debug:
+        optional: true
+
+  form-data@4.0.0:
+    resolution: {integrity: sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww==}
+    engines: {node: '>= 6'}
+
+  isbot@5.1.13:
+    resolution: {integrity: sha512-RXtBib4m9zChSb+187EpNQML7Z3u2i34zDdqcRFZnqSJs0xdh91xzJytc5apYVg+9Y4NGnUQ0AIeJvX9FAnCUw==}
+    engines: {node: '>=18'}
+
+  jose@5.6.3:
+    resolution: {integrity: sha512-1Jh//hEEwMhNYPDDLwXHa2ePWgWiFNNUadVmguAAw2IJ6sj9mNxV5tGXJNqlMkJAybF6Lgw1mISDxTePP/187g==}
+
+  mime-db@1.52.0:
+    resolution: {integrity: sha512-sPU4uV7dYlvtWJxwwxHD0PuihVNiE7TyAbQ5SWxDCB9mUYvOgroQOwYQQOKPJ8CIbE+1ETVlOoK1UC2nU3gYvg==}
+    engines: {node: '>= 0.6'}
+
+  mime-types@2.1.35:
+    resolution: {integrity: sha512-ZDY+bPm5zTTF+YpCrAU9nK0UgICYPT0QtT1NZWFv4s++TNkcgVaT0g6+4R2uI4MjQjzysHB1zxuWL50hzaeXiw==}
+    engines: {node: '>= 0.6'}
+
+  node-fetch@2.7.0:
+    resolution: {integrity: sha512-c4FRfUm/dbcWZ7U+1Wq0AwCyFL+3nt2bEw05wfxSz+DWpWsitgmSgYmy2dQdWyKC1694ELPqMs/YzUSNozLt8A==}
+    engines: {node: 4.x || >=6.0.0}
+    peerDependencies:
+      encoding: ^0.1.0
+    peerDependenciesMeta:
+      encoding:
+        optional: true
+
+  proxy-from-env@1.1.0:
+    resolution: {integrity: sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==}
+
+  tr46@0.0.3:
+    resolution: {integrity: sha512-N3WMsuqV66lT30CrXNbEjx4GEwlow3v6rr4mCcv6prnfwhS01rkgyFdjPNBYd9br7LpXV1+Emh01fHnq2Gdgrw==}
+
+  tslib@2.6.3:
+    resolution: {integrity: sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==}
+
+  uuid@10.0.0:
+    resolution: {integrity: sha512-8XkAphELsDnEGrDxUOHB3RGvXz6TeuYSGEZBOjtTtPm2lwhGBjLgOzLHB63IUWfBpNucQjND6d3AOudO+H3RWQ==}
+    hasBin: true
+
+  webidl-conversions@3.0.1:
+    resolution: {integrity: sha512-2JAn3z8AR6rjK8Sm8orRC0h/bcl/DqL7tRPdGZ4I1CjdF+EaMLmYxBHyXuKL849eucPFhvBoxMsflfOb8kxaeQ==}
+
+  whatwg-url@5.0.0:
+    resolution: {integrity: sha512-saE57nupxk6v3HY35+jzBwYa0rKSy0XR8JSxZPwgLr7ys0IBzhGviA1/TUGJLmSVqs8pb9AnvICXEuOHLprYTw==}
+
+snapshots:
+
+  '@shopify/admin-api-client@1.0.1':
+    dependencies:
+      '@shopify/graphql-client': 1.1.0
+
+  '@shopify/graphql-client@1.1.0': {}
+
+  '@shopify/network@3.3.0': {}
+
+  '@shopify/shopify-api@11.2.0':
+    dependencies:
+      '@shopify/admin-api-client': 1.0.1
+      '@shopify/network': 3.3.0
+      '@shopify/storefront-api-client': 1.0.1
+      compare-versions: 6.1.1
+      isbot: 5.1.13
+      jose: 5.6.3
+      node-fetch: 2.7.0
+      tslib: 2.6.3
+      uuid: 10.0.0
+    transitivePeerDependencies:
+      - encoding
+
+  '@shopify/storefront-api-client@1.0.1':
+    dependencies:
+      '@shopify/graphql-client': 1.1.0
+
+  asynckit@0.4.0: {}
+
+  axios@1.7.2:
+    dependencies:
+      follow-redirects: 1.15.6
+      form-data: 4.0.0
+      proxy-from-env: 1.1.0
+    transitivePeerDependencies:
+      - debug
+
+  combined-stream@1.0.8:
+    dependencies:
+      delayed-stream: 1.0.0
+
+  compare-versions@6.1.1: {}
+
+  delayed-stream@1.0.0: {}
+
+  follow-redirects@1.15.6: {}
+
+  form-data@4.0.0:
+    dependencies:
+      asynckit: 0.4.0
+      combined-stream: 1.0.8
+      mime-types: 2.1.35
+
+  isbot@5.1.13: {}
+
+  jose@5.6.3: {}
+
+  mime-db@1.52.0: {}
+
+  mime-types@2.1.35:
+    dependencies:
+      mime-db: 1.52.0
+
+  node-fetch@2.7.0:
+    dependencies:
+      whatwg-url: 5.0.0
+
+  proxy-from-env@1.1.0: {}
+
+  tr46@0.0.3: {}
+
+  tslib@2.6.3: {}
+
+  uuid@10.0.0: {}
+
+  webidl-conversions@3.0.1: {}
+
+  whatwg-url@5.0.0:
+    dependencies:
+      tr46: 0.0.3
+      webidl-conversions: 3.0.1

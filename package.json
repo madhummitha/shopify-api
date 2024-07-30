@@ -1,0 +1,18 @@
+{
+  "name": "shopify-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@shopify/shopify-api": "^11.2.0",
+    "axios": "^1.7.2",
+    "node": "link:@shopify/shopify-api/adapters/node"
+  }
+}
