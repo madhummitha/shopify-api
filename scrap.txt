@@ -1,0 +1,21 @@
+1. Create a Feed Coument
+
+{
+  feedDocumentId: 'amzn1.tortuga.4.eu.06b52f83-e04a-4b32-a17e-591140cee7c8.TPUK5BZRNUNU2',
+  url: 'https://tortuga-prod-eu.s3-eu-west-1.amazonaws.com/06b52f83-e04a-4b32-a17e-591140cee7c8.amzn1.tortuga.4.eu.TPUK5BZRNUNU2?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20240819T180157Z&X-Amz-SignedHeaders=content-type%3Bhost&X-Amz-Expires=300&X-Amz-Credential=AKIAX2ZVOZFBIPHKZ57H%2F20240819%2Feu-west-1%2Fs3%2Faws4_request&X-Amz-Signature=4ecd9aff29e109196d71738b94807d386fd35ac6f5c5e6c83f725838cee05a47'
+}
+
+4. Create Feed
+{ feedId: '50331019954' }
+
+5. Get Feed Status
+{
+  processingEndTime: '2024-08-18T18:32:36+00:00',
+  processingStatus: 'DONE',
+  marketplaceIds: [ 'A2VIGQ35RCS4UG' ],
+  feedId: '50329019953',
+  feedType: 'JSON_LISTINGS_FEED',
+  createdTime: '2024-08-18T18:32:20+00:00',
+  processingStartTime: '2024-08-18T18:32:27+00:00',
+  resultFeedDocumentId: 'amzn1.tortuga.4.eu.fd20e37c-a852-452d-8f2a-0a9af164f092.T33A6SB13PXM7Q'
+}

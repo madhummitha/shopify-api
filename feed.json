@@ -1,0 +1,29 @@
+{
+  "header": {
+    "sellerId": "A1AOGB15LFPGLL",
+    "version": "2.0",
+    "issueLocale": "en_US"
+  },
+  "messages": [
+    {
+      "messageId": 1,
+      "sku": "B0BNF8ZMZV",
+      "attributes": {
+        "price": {
+          "valueWithTax": {
+            "value": 267.89,
+            "currency": "AED"
+          }
+        }
+      },
+      "fulfillmentAvailability": [
+        {
+          "handlingTime": {
+            "minimumHours": 96,
+            "maximumHours": 124
+          }
+        }
+      ]
+    }
+  ]
+}
