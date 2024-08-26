@@ -34,4 +34,26 @@ async function listProduct() {
   }
 }
 
-listProduct();
+async function getProductDefinition() {
+  const accessToken = await getAccessToken();
+
+  const marketplaceIds = ["A2VIGQ35RCS4UG"];
+  const url = `https://sellingpartnerapi-eu.amazon.com/definitions/2020-09-01/productTypes/FLASH_CARD?marketplaceIds=${marketplaceIds}`;
+
+  const headers = {
+    "Content-Type": "application/json",
+    Authorization: `Bearer ${accessToken}`,
+    "x-amz-access-token": accessToken,
+    "x-amz-date": new Date().toISOString(),
+  };
+
+  try {
+    const response = await axios.get(url, { headers });
+    console.log(JSON.stringify(response.data, null, 2));
+  } catch (error) {
+    console.error("Error listing product:", error.response.data);
+  }
+}
+
+// listProduct();
+getProductDefinition();

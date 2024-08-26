@@ -212,7 +212,7 @@ const init = async () => {
                   {
                     schedule: [
                       {
-                        value_with_tax: 45,
+                        value_with_tax: 20,
                       },
                     ],
                   },
@@ -227,11 +227,12 @@ const init = async () => {
             value: [
               {
                 fulfillment_channel_code: "DEFAULT",
-                quantity: 178,
-                handling_time: {
-                  minimum_hours: 24,
-                  maximum_hours: 48,
-                },
+                quantity: 150,
+                lead_time_to_ship_max_days: 10,
+                // handling_time: {
+                //   minimum_hours: 24,
+                //   maximum_hours: 48,
+                // },
               },
             ],
           },
@@ -313,7 +314,7 @@ const getResultDocument = async () => {
   };
 
   const resultDocumentId =
-    "amzn1.tortuga.4.eu.558455ba-35cb-4d7f-afc5-4894138fd108.TQ7ULAXKR6KYF";
+    "amzn1.tortuga.4.eu.261973c8-7db9-4ccd-b4a8-26b27c6f4a54.T3BCDSLH7INK8F";
 
   const response = await axios.get(
     `https://sellingpartnerapi-eu.amazon.com/feeds/2021-06-30/documents/${resultDocumentId}`,
@@ -333,6 +334,6 @@ const getResultDocument = async () => {
   downloadFeedDocument(response.data.url);
 };
 
-init();
-// getFeedStatus(50346019961);
-// getResultDocument();
+// init();
+// getFeedStatus(50348019961);
+getResultDocument();
