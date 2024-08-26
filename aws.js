@@ -16,8 +16,8 @@ async function getAccessToken() {
 async function listProduct() {
   const accessToken = await getAccessToken();
 
-  const url =
-    "https://sellingpartnerapi-eu.amazon.com/listings/2021-08-01/items/A1AOGB15LFPGLL";
+  const marketplaceIds = ["A2VIGQ35RCS4UG"];
+  const url = `https://sellingpartnerapi-eu.amazon.com/listings/2021-08-01/items/A1AOGB15LFPGLL/B0D7RY22F7?marketplaceIds=${marketplaceIds}`;
 
   const headers = {
     "Content-Type": "application/json",
@@ -28,7 +28,7 @@ async function listProduct() {
 
   try {
     const response = await axios.get(url, { headers });
-    console.log(response.data);
+    console.log(JSON.stringify(response.data, null, 2));
   } catch (error) {
     console.error("Error listing product:", error.response.data);
   }
